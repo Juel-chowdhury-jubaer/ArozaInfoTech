@@ -1,0 +1,36 @@
+/*header*/
+header{height: 100vh; background:url(images/header-img.png)no-repeat;background-position: right bottom ;background-size:100% 100%,cover; }
+/*navbar*/
+.nav-menu{padding: 50px 90px;;transition: all .5s;}
+.menu-item{text-transform: uppercase; font-size: 13px;letter-spacing: 1px;color:#fffff0;transition: color .5s;}
+.menu-item:hover{color: #70aed2;}
+.line1,.line2,.line3{width: 23px;height: 3px;margin:5px;transition: all .4s;}
+.change .line1{transform: rotate(-45deg)translate(-5px,6px);}
+.change .line2{opacity: 0;} 
+.change .line3{transform: rotate(45deg)translate(-5px,-6px);}
+.custom-navbar{padding: 5px 30px;background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.9));}
+/*End of navbar*/
+
+/*Banner*/
+.banner{position: absolute;top: 30%;left: 90px;width:50%;}
+.banner-heading{font-size:50px;text-transform: uppercase;color:#FFFFFD;animation-name: anim;animation-duration: 2s;padding-bottom: 20px;}
+.banner-subheading{color:#FFFFFD;font-size: 22px;font-weight: 400; animation-name: anim;animation-duration: 2s;animation-delay: .5s;animation-fill-mode: backwards;}
+.subscription-msg{font-weight: 400;}
+.subscription-msg span{font-weight: 600;text-transform: uppercase;font-size: 24px;}
+
+.subscription-btn{background: #FF554E;color:#FFFFFD;width:250px;}
+
+
+@keyframes anim{
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+/*End Of Banner*/
+
+/*End of header*/

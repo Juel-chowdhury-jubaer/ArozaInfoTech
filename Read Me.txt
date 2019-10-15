@@ -1,0 +1,9 @@
+1. At first, You have to download the file from github.
+2 Then,place it in xampp or wamp server's proper folder. 
+3. Access it having localhost url.
+4. Screenshots have been included. You can check it too.
+
+N.B: If you click the name in the country list then it will show that country's currency and area code (phone).
+For Any Query please contact.
+
+Thank You.
